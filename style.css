@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 720px 1fr;
+}
+
+main {
+  height: 100vh;
+  background: var(--body-bg-color);
+}
+
+.logo img {
+  width: 389px;
+  height: 94px;
+  margin: 50px 300px 92px 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0 37px 0 36px;
+}
+
+.info h2 {
+  color: var(--title-color);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.info h3 {
+  font-family: 'Spartan', sans-serif;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.info p {
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.input {
+  margin: 50px 0 0 36px;
+}
+
+.input p {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  color: var(--form-color);
+  margin: 50px 0 17px 0;
+}
+
+.input div {
+  display: flex;
+  width: 798px;
+  margin-top: 17px;
+}
+
+.input input {
+  width: 750px;
+  height: 48px;
+  border: none;
+  box-shadow: 4px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-left: 5px solid var(--title-color);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+.input button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: var(--bg-button-color);
+  z-index: 1;
+}
+
+.input button img {
+  width: 20px;
+  height: 20px;
+  color: var(--text-color);
+}
+
+.link {
+  margin: 50px 0 0 36px;
+}
+
+.link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  color: var(--bg-button-color);
+}
+
+.link img {
+  color: var(--bg-button-color);
+}
+
+aside {
+  background-image: url(./assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
