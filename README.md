@@ -10,7 +10,7 @@
 
 ## :computer: Sobre  
 
-Página para captação de leads ou newsletter.
+Projeto feito com intuito de colocar em prática alguns conceitos. Página com intuito de captação de leads ou newsletter.
 
 ## :rocket: Techs
 
